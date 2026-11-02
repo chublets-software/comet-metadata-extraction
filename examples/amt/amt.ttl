@@ -1,0 +1,92 @@
+# https://github.com/alpaca-fair-framework/amt-engine, extracted with CoMET-RS, retrieved 2026-11-02
+@prefix chb: <https://n4o-rse.github.io/chublets-wikibase-demo/entity/> .
+@prefix chbt: <https://n4o-rse.github.io/chublets-wikibase-demo/prop/direct/> .
+@prefix chbp: <https://n4o-rse.github.io/chublets-wikibase-demo/prop/> .
+@prefix chbps: <https://n4o-rse.github.io/chublets-wikibase-demo/prop/statement/> .
+@prefix chbpq: <https://n4o-rse.github.io/chublets-wikibase-demo/prop/qualifier/> .
+@prefix chbpr: <https://n4o-rse.github.io/chublets-wikibase-demo/prop/reference/> .
+@prefix chbs: <https://n4o-rse.github.io/chublets-wikibase-demo/entity/statement/> .
+@prefix chbref: <https://n4o-rse.github.io/chublets-wikibase-demo/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+chb:Q358
+    a wikibase:Item ;
+    skos:prefLabel "Academic Meta Tool (AMT)"@en ;
+    schema:description "ontology and webapp for modelling vagueness in graphs including reasoning"@en ;
+    chbt:P4 "Q74003194" ;
+    chbt:P2 chb:Q106 ;
+    chbp:P2 chbs:f0bcee35-6cdb-5be7-895e-a30e0e263e0e ;
+    chbt:P118 chb:Q108 ;
+    chbp:P118 chbs:ea2702a9-9fa4-53f1-8951-ce9192c78dc6 ;
+    chbt:P122 chb:Q109 ;
+    chbp:P122 chbs:789e466c-b45b-5419-9569-e00f82c2efe7 ;
+    chbt:P125 <https://github.com/alpaca-fair-framework/amt-engine> ;
+    chbp:P125 chbs:23f45795-4a68-5b2b-b60b-431fb808fc18 ;
+    chbt:P107 chb:Q369 ;
+    chbp:P107 chbs:30e893d6-3428-5a12-bbd8-f48cf0eb9ac9 ;
+    chbt:P123 chb:Q370 ;
+    chbp:P123 chbs:f4b4d40e-3b10-53e6-9cc2-60f54a939043 ;
+    chbt:P138 <https://github.com/alpaca-fair-framework/amt-engine/issues> ;
+    chbp:P138 chbs:da3c0a77-f4df-5492-8f00-2f26525f4904 ;
+    chbt:P125 <https://github.com/alpaca-fair-framework/amt-runner> ;
+    chbp:P125 chbs:ed3f26ef-d792-53d9-8199-1f139bcfc1ba ;
+    chbt:P138 <https://github.com/alpaca-fair-framework/amt-runner/issues> ;
+    chbp:P138 chbs:db30b225-11d8-554f-bcde-7cfed8f6d810 .
+
+chbs:f0bcee35-6cdb-5be7-895e-a30e0e263e0e
+    a wikibase:Statement ;
+    chbps:P2 chb:Q106 .
+
+chbs:ea2702a9-9fa4-53f1-8951-ce9192c78dc6
+    a wikibase:Statement ;
+    chbps:P118 chb:Q108 .
+
+chbs:789e466c-b45b-5419-9569-e00f82c2efe7
+    a wikibase:Statement ;
+    chbps:P122 chb:Q109 .
+
+chbs:23f45795-4a68-5b2b-b60b-431fb808fc18
+    a wikibase:Statement ;
+    chbps:P125 <https://github.com/alpaca-fair-framework/amt-engine> ;
+    chbpq:P126 chb:Q114 ;
+    prov:wasDerivedFrom chbref:20d92e2105fdcad0dc41cb8014e0c4316906b2fd .
+
+chbs:30e893d6-3428-5a12-bbd8-f48cf0eb9ac9
+    a wikibase:Statement ;
+    chbps:P107 chb:Q369 ;
+    prov:wasDerivedFrom chbref:20d92e2105fdcad0dc41cb8014e0c4316906b2fd .
+
+chbs:f4b4d40e-3b10-53e6-9cc2-60f54a939043
+    a wikibase:Statement ;
+    chbps:P123 chb:Q370 ;
+    prov:wasDerivedFrom chbref:20d92e2105fdcad0dc41cb8014e0c4316906b2fd .
+
+chbs:da3c0a77-f4df-5492-8f00-2f26525f4904
+    a wikibase:Statement ;
+    chbps:P138 <https://github.com/alpaca-fair-framework/amt-engine/issues> ;
+    prov:wasDerivedFrom chbref:20d92e2105fdcad0dc41cb8014e0c4316906b2fd .
+
+chbs:ed3f26ef-d792-53d9-8199-1f139bcfc1ba
+    a wikibase:Statement ;
+    chbps:P125 <https://github.com/alpaca-fair-framework/amt-runner> ;
+    chbpq:P126 chb:Q114 ;
+    prov:wasDerivedFrom chbref:8816ddbb517fc314454af56f919dcc090a737821 .
+
+chbs:db30b225-11d8-554f-bcde-7cfed8f6d810
+    a wikibase:Statement ;
+    chbps:P138 <https://github.com/alpaca-fair-framework/amt-runner/issues> ;
+    prov:wasDerivedFrom chbref:8816ddbb517fc314454af56f919dcc090a737821 .
+
+chbref:20d92e2105fdcad0dc41cb8014e0c4316906b2fd
+    a wikibase:Reference ;
+    chbpr:P6 <https://github.com/alpaca-fair-framework/amt-engine> ;
+    chbpr:P7 "2026-11-02T00:00:00Z"^^xsd:dateTime .
+
+chbref:8816ddbb517fc314454af56f919dcc090a737821
+    a wikibase:Reference ;
+    chbpr:P6 <https://github.com/alpaca-fair-framework/amt-runner> ;
+    chbpr:P7 "2026-11-02T00:00:00Z"^^xsd:dateTime .

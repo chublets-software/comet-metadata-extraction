@@ -1,0 +1,84 @@
+# https://github.com/sparqlunicorn/sparqlunicornGoesGIS, extracted with CoMET-RS, retrieved 2026-11-02
+@prefix chb: <https://n4o-rse.github.io/chublets-wikibase-demo/entity/> .
+@prefix chbt: <https://n4o-rse.github.io/chublets-wikibase-demo/prop/direct/> .
+@prefix chbp: <https://n4o-rse.github.io/chublets-wikibase-demo/prop/> .
+@prefix chbps: <https://n4o-rse.github.io/chublets-wikibase-demo/prop/statement/> .
+@prefix chbpq: <https://n4o-rse.github.io/chublets-wikibase-demo/prop/qualifier/> .
+@prefix chbpr: <https://n4o-rse.github.io/chublets-wikibase-demo/prop/reference/> .
+@prefix chbs: <https://n4o-rse.github.io/chublets-wikibase-demo/entity/statement/> .
+@prefix chbref: <https://n4o-rse.github.io/chublets-wikibase-demo/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+chb:Q360
+    a wikibase:Item ;
+    skos:prefLabel "SPARQLing Unicorn QGIS Plugin"@en ;
+    schema:description "SPARQLing Unicorn QGIS Plugin (Documentation: https://sparqlunicorn.github.io/sparqlunicornGoesGIS/)"@en ;
+    chbt:P4 "Q74005133" ;
+    chbt:P2 chb:Q106 ;
+    chbp:P2 chbs:1d12ed59-d8a8-58c9-a0e9-173ae95665a5 ;
+    chbt:P118 chb:Q108 ;
+    chbp:P118 chbs:6781289c-427f-53cb-8197-dd66f3675d04 ;
+    chbt:P122 chb:Q109 ;
+    chbp:P122 chbs:a5746155-1f4e-5af4-be13-3fcc402491d1 ;
+    chbt:P125 <https://github.com/sparqlunicorn/sparqlunicornGoesGIS> ;
+    chbp:P125 chbs:7924c806-08fc-5123-9d9f-9fc17fa4b848 ;
+    chbt:P107 chb:Q934 ;
+    chbp:P107 chbs:8b3f4339-4f1a-5d51-963e-47e4ddfba441 ;
+    chbt:P123 chb:Q370 ;
+    chbp:P123 chbs:e6dcb5e0-0663-5b1c-be67-384d90e7a74d ;
+    chbt:P148 "0.17.4" ;
+    chbp:P148 chbs:5ae93cef-0141-5194-8a72-8e7ccdbe8126 ;
+    chbt:P138 <https://github.com/sparqlunicorn/sparqlunicornGoesGIS/issues> ;
+    chbp:P138 chbs:067ce0b6-655d-5d5c-9d54-073647c4970e .
+
+chbs:1d12ed59-d8a8-58c9-a0e9-173ae95665a5
+    a wikibase:Statement ;
+    chbps:P2 chb:Q106 .
+
+chbs:6781289c-427f-53cb-8197-dd66f3675d04
+    a wikibase:Statement ;
+    chbps:P118 chb:Q108 .
+
+chbs:a5746155-1f4e-5af4-be13-3fcc402491d1
+    a wikibase:Statement ;
+    chbps:P122 chb:Q109 .
+
+chbs:7924c806-08fc-5123-9d9f-9fc17fa4b848
+    a wikibase:Statement ;
+    chbps:P125 <https://github.com/sparqlunicorn/sparqlunicornGoesGIS> ;
+    chbpq:P126 chb:Q114 ;
+    prov:wasDerivedFrom chbref:84d23e768b1dbd7e47ef21da4d87f6cd9f4b93da .
+
+chbs:8b3f4339-4f1a-5d51-963e-47e4ddfba441
+    a wikibase:Statement ;
+    chbps:P107 chb:Q934 ;
+    prov:wasDerivedFrom chbref:84d23e768b1dbd7e47ef21da4d87f6cd9f4b93da .
+
+chbs:e6dcb5e0-0663-5b1c-be67-384d90e7a74d
+    a wikibase:Statement ;
+    chbps:P123 chb:Q370 ;
+    prov:wasDerivedFrom chbref:84d23e768b1dbd7e47ef21da4d87f6cd9f4b93da .
+
+chbs:5ae93cef-0141-5194-8a72-8e7ccdbe8126
+    a wikibase:Statement ;
+    chbps:P148 "0.17.4" ;
+    prov:wasDerivedFrom chbref:f0cf9eaf2c387cb94ae96c12c0e6bd89c43dfcab .
+
+chbs:067ce0b6-655d-5d5c-9d54-073647c4970e
+    a wikibase:Statement ;
+    chbps:P138 <https://github.com/sparqlunicorn/sparqlunicornGoesGIS/issues> ;
+    prov:wasDerivedFrom chbref:84d23e768b1dbd7e47ef21da4d87f6cd9f4b93da .
+
+chbref:84d23e768b1dbd7e47ef21da4d87f6cd9f4b93da
+    a wikibase:Reference ;
+    chbpr:P6 <https://github.com/sparqlunicorn/sparqlunicornGoesGIS> ;
+    chbpr:P7 "2026-11-02T00:00:00Z"^^xsd:dateTime .
+
+chbref:f0cf9eaf2c387cb94ae96c12c0e6bd89c43dfcab
+    a wikibase:Reference ;
+    chbpr:P6 <https://github.com/sparqlunicorn/sparqlunicornGoesGIS/releases/tag/v0.17.4> ;
+    chbpr:P7 "2026-11-02T00:00:00Z"^^xsd:dateTime .

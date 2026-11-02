@@ -1,0 +1,22 @@
+repository,property,value,reason
+https://github.com/alpaca-fair-framework/amt-engine,programmingLanguage,Jupyter Notebook | TeX | Mermaid | JavaScript,"secondary, only the main language is exported"
+https://github.com/alpaca-fair-framework/amt-engine,author,Florian Thiery <https://orcid.org/0000-0002-3246-3531> | Allard Mees <https://orcid.org/0000-0002-7634-5342>,person needs reconciliation to an item
+https://github.com/alpaca-fair-framework/amt-engine,contributor,Florian Thiery <https://api.github.com/users/florianthiery>,person needs reconciliation to an item
+https://github.com/alpaca-fair-framework/amt-engine,referencePublication,https://doi.org/10.17175/SB004_004,publication needs reconciliation to an item
+https://github.com/alpaca-fair-framework/amt-engine,copyrightHolder,Römisch-Germanisches Zentralmuseum Mainz (RGZM),"taken from the licence text, check the holder"
+https://github.com/alpaca-fair-framework/amt-engine,dateCreated,2026-04-28,repository creation is not always the inception of the software
+https://github.com/alpaca-fair-framework/amt-engine,documentation,https://github.com/alpaca-fair-framework/amt-engine/tree/main/docs,no property chosen yet
+https://github.com/alpaca-fair-framework/amt-engine,archivedAt,https://doi.org/10.5281/zenodo.23669466,no property chosen yet
+https://github.com/alpaca-fair-framework/amt-engine,keywords,amt,keywords need mapping to main subjects
+https://github.com/alpaca-fair-framework/amt-runner,codeRepository,https://github.com/n4o-rse/amt-runner,repository moved to https://github.com/alpaca-fair-framework/amt-runner
+https://github.com/alpaca-fair-framework/amt-runner,author,Florian Thiery <https://orcid.org/0000-0002-3246-3531> | Allard Mees <https://orcid.org/0000-0002-7634-5342>,person needs reconciliation to an item
+https://github.com/alpaca-fair-framework/amt-runner,contributor,Florian Thiery <https://api.github.com/users/florianthiery>,person needs reconciliation to an item
+https://github.com/alpaca-fair-framework/amt-runner,copyrightHolder,Florian Thiery | LEIZA | Research Squirrel Engineers Network,"taken from the licence text, check the holder"
+https://github.com/alpaca-fair-framework/amt-runner,dateCreated,2026-05-05,repository creation is not always the inception of the software
+https://github.com/alpaca-fair-framework/amt-runner,documentation,https://leiza-scit.github.io/CAA2026-amt/> | https://alpaca-fair-framework.github.io/amt-engine/howto/run/ | https://alpaca-fair-framework.github.io/amt-engine/ | https://alpaca-fair-framework.github.io/amt-engine/explorer/ | https://alpaca-fair-framework.github.io/amt-engine/howto/,no property chosen yet
+https://github.com/alpaca-fair-framework/amt-runner,archivedAt,https://doi.org/10.5281/zenodo.23669557,no property chosen yet
+https://github.com/alpaca-fair-framework/amt-runner,keywords,amt,keywords need mapping to main subjects
+https://github.com/alpaca-fair-framework/amt-engine/releases/tag/v0.6.0,P348,0.6.0,"repositories of this tool differ, decide what the item records"
+https://github.com/alpaca-fair-framework/amt-engine,P356,10.5281/ZENODO.23669466,"repositories of this tool differ, decide what the item records"
+https://github.com/alpaca-fair-framework/amt-runner/releases/tag/v0.5.0,P348,0.5.0,"repositories of this tool differ, decide what the item records"
+https://github.com/alpaca-fair-framework/amt-runner,P356,10.5281/ZENODO.23669557,"repositories of this tool differ, decide what the item records"
