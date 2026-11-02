@@ -22,7 +22,7 @@ authors:
   - family-names: "Thiery"
     given-names: "Florian"
     orcid: "https://orcid.org/0000-0002-3246-3531"
-version: 0.4.3-chublets.1
+version: 0.4.3-chublets.2
 date-released: 2026-11-03
 license: GPL-3.0
 repository-code: "https://github.com/chublets-software/comet-metadata-extraction"

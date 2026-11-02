@@ -1,0 +1,417 @@
+{
+  "schema": "connoss",
+  "code_url": "https://github.com/n4o-rse/amt-runner",
+  "results": {
+    "@context": {
+      "linkml": "https://w3id.org/linkml/",
+      "sdo": "https://schema.org/",
+      "cm": "https://codemeta.github.io/terms/",
+      "spdx": "https://spdx.org/licenses/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "codeRepository": "sdo:codeRepository",
+      "codeSampleType": "sdo:codeSampleType",
+      "programmingLanguage": "sdo:programmingLanguage",
+      "runtimePlatform": "sdo:runtimePlatform",
+      "targetProduct": "sdo:targetProduct",
+      "applicationCategory": "sdo:applicationCategory",
+      "applicationSubCategory": "sdo:applicationSubCategory",
+      "applicationSuite": "sdo:applicationSuite",
+      "availableOnDevice": "sdo:availableOnDevice",
+      "countriesNotSupported": "sdo:countriesNotSupported",
+      "countriesSupported": "sdo:countriesSupported",
+      "downloadUrl": "sdo:downloadUrl",
+      "featureList": "sdo:featureList",
+      "fileSize": "sdo:fileSize",
+      "installUrl": "sdo:installUrl",
+      "memoryRequirements": "sdo:memoryRequirements",
+      "operatingSystem": "sdo:operatingSystem",
+      "permissions": "sdo:permissions",
+      "processorRequirements": "sdo:processorRequirements",
+      "releaseNotes": "sdo:releaseNotes",
+      "screenshot": "sdo:screenshot",
+      "softwareAddOn": "sdo:softwareAddOn",
+      "softwareHelp": "sdo:softwareHelp",
+      "softwareRequirements": "sdo:softwareRequirements",
+      "softwareVersion": "sdo:softwareVersion",
+      "storageRequirements": "sdo:storageRequirements",
+      "supportingData": "sdo:supportingData",
+      "author": "sdo:author",
+      "citation": "sdo:citation",
+      "contributor": "sdo:contributor",
+      "copyrightHolder": "sdo:copyrightHolder",
+      "copyrightYear": "sdo:copyrightYear",
+      "dateCreated": "sdo:dateCreated",
+      "dateModified": "sdo:dateModified",
+      "datePublished": "sdo:datePublished",
+      "encodingFormat": "sdo:encodingFormat",
+      "funder": "sdo:funder",
+      "hasPart": "sdo:hasPart",
+      "isAccessibleForFree": "sdo:isAccessibleForFree",
+      "isPartOf": "sdo:isPartOf",
+      "keywords": "sdo:keywords",
+      "license": "sdo:license",
+      "publisher": "sdo:publisher",
+      "review": "sdo:review",
+      "sponsor": "sdo:sponsor",
+      "description": "sdo:description",
+      "identifier": "sdo:identifier",
+      "name": "sdo:name",
+      "sameAs": "sdo:sameAs",
+      "url": "sdo:url",
+      "relatedLink": "sdo:relatedLink",
+      "buildInstructions": "cm:buildInstructions",
+      "continuousIntegration": "cm:continuousIntegration",
+      "developmentStatus": "cm:developmentStatus",
+      "embargoEndDate": "cm:embargoEndDate",
+      "hasSourceCode": "cm:hasSourceCode",
+      "isSourceCodeOf": "cm:isSourceCodeOf",
+      "issueTracker": "cm:issueTracker",
+      "readme": "cm:readme",
+      "referencePublication": "cm:referencePublication",
+      "relatedSoftware": "sdo:relatedSoftware",
+      "contactPoint": "sdo:contactPoint",
+      "creditText": "sdo:creditText",
+      "alternateName": "sdo:alternateName",
+      "intendedUse": "sdo:intendedUse",
+      "applicationDomain": "sdo:applicationDomain",
+      "legalConsiderations": "sdo:legalConsiderations",
+      "ethicalSocialConsiderations": "sdo:ethicalSocialConsiderations",
+      "archivedAt": "sdo:archivedAt",
+      "conditionsOfAccess": "sdo:conditionsOfAccess",
+      "documentation": "sdo:documentation",
+      "developerDocumentation": "cm:developerDocumentation",
+      "userDocumentation": "cm:userDocumentation",
+      "softwareInterface": "sdo:softwareInterface",
+      "testedWith": "sdo:testedWith",
+      "implementsSpecification": "sdo:implementsSpecification",
+      "softwareContainer": "sdo:softwareContainer",
+      "input": "sdo:input",
+      "output": "sdo:output",
+      "partOfCommunity": "sdo:partOfCommunity",
+      "latestRelease": "sdo:latestRelease",
+      "latestReleaseVersion": "cm:latestReleaseVersion"
+    },
+    "@type": "Software",
+    "codeRepository": "https://github.com/alpaca-fair-framework/amt-runner.git",
+    "codeSampleType": null,
+    "programmingLanguage": [
+      "Python"
+    ],
+    "runtimePlatform": null,
+    "targetProduct": null,
+    "applicationCategory": null,
+    "applicationSubCategory": null,
+    "applicationSuite": null,
+    "availableOnDevice": null,
+    "countriesNotSupported": null,
+    "countriesSupported": null,
+    "downloadUrl": "https://github.com/n4o-rse/amt-runner/archive/refs/heads/main.zip",
+    "featureList": null,
+    "fileSize": null,
+    "installUrl": null,
+    "memoryRequirements": null,
+    "operatingSystem": null,
+    "permissions": null,
+    "processorRequirements": null,
+    "releaseNotes": "https://github.com/alpaca-fair-framework/amt-runner/releases/tag/v0.5.0",
+    "screenshot": null,
+    "softwareAddOn": null,
+    "softwareHelp": null,
+    "softwareRequirements": [
+      "https://github.com/alpaca-fair-framework/amt-runner/blob/main/requirements.txt"
+    ],
+    "softwareVersion": "0.5.0",
+    "storageRequirements": "367.00 KB",
+    "supportingData": null,
+    "author": [
+      {
+        "givenName": "Florian",
+        "familyName": "Thiery",
+        "@id": "https://orcid.org/0000-0002-3246-3531",
+        "affiliation": {
+          "name": "LEIZA - Leibniz-Zentrum für Archäologie",
+          "sameAs": "https://openalex.org/I3178478377",
+          "@type": "Organization"
+        },
+        "sameAs": "https://openalex.org/A5041155148",
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      },
+      {
+        "givenName": "Allard",
+        "familyName": "Mees",
+        "@id": "https://orcid.org/0000-0002-7634-5342",
+        "affiliation": {
+          "name": "LEIZA - Leibniz-Zentrum für Archäologie",
+          "sameAs": "https://openalex.org/I3178478377",
+          "@type": "Organization"
+        },
+        "sameAs": "https://openalex.org/A5032719717",
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      }
+    ],
+    "citation": {
+      "@type": "Software",
+      "@id": "https://doi.org/10.5281/zenodo.23669557"
+    },
+    "contributor": [
+      {
+        "givenName": "Florian",
+        "familyName": "Thiery",
+        "url": "http://fthiery.de",
+        "@id": "https://api.github.com/users/florianthiery",
+        "affiliation": {
+          "name": "leiza-rse",
+          "@type": "Organization"
+        },
+        "account": {
+          "accountName": "florianthiery",
+          "accountServiceHomepage": "https://github.com",
+          "url": "https://github.com/florianthiery",
+          "@type": "OnlineAccount"
+        },
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      }
+    ],
+    "copyrightHolder": "Florian Thiery | LEIZA | Research Squirrel Engineers Network",
+    "copyrightYear": 2026,
+    "dateCreated": "2026-05-05",
+    "dateModified": "2026-10-30",
+    "datePublished": "2026-10-26",
+    "encodingFormat": null,
+    "funder": null,
+    "hasPart": null,
+    "isAccessibleForFree": true,
+    "isPartOf": null,
+    "keywords": [
+      "amt"
+    ],
+    "license": {
+      "@type": "CreativeWork",
+      "@context": "https://schema.org",
+      "name": "MIT License",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "publisher": null,
+    "review": null,
+    "sponsor": null,
+    "description": "Academic Meta Tool - Reasoning Engine Runner",
+    "identifier": [
+      "https://doi.org/10.5281/zenodo.23669557"
+    ],
+    "name": "amt-runner",
+    "sameAs": null,
+    "url": "https://github.com/alpaca-fair-framework/amt-runner",
+    "relatedLink": null,
+    "buildInstructions": null,
+    "continuousIntegration": null,
+    "developmentStatus": null,
+    "embargoEndDate": null,
+    "hasSourceCode": "https://github.com/alpaca-fair-framework/amt-runner",
+    "isSourceCodeOf": null,
+    "issueTracker": "https://github.com/alpaca-fair-framework/amt-runner/issues",
+    "readme": [
+      "https://github.com/alpaca-fair-framework/amt-runner/blob/main/README.md"
+    ],
+    "referencePublication": null,
+    "relatedSoftware": null,
+    "contactPoint": null,
+    "creditText": null,
+    "alternateName": null,
+    "intendedUse": null,
+    "applicationDomain": null,
+    "legalConsiderations": null,
+    "ethicalSocialConsiderations": null,
+    "archivedAt": [
+      "https://doi.org/10.5281/zenodo.23669557"
+    ],
+    "conditionsOfAccess": null,
+    "documentation": [
+      "https://leiza-scit.github.io/CAA2026-amt/>",
+      "https://alpaca-fair-framework.github.io/amt-engine/howto/run/",
+      "https://alpaca-fair-framework.github.io/amt-engine/",
+      "https://alpaca-fair-framework.github.io/amt-engine/explorer/",
+      "https://alpaca-fair-framework.github.io/amt-engine/howto/"
+    ],
+    "developerDocumentation": null,
+    "userDocumentation": null,
+    "softwareInterface": null,
+    "testedWith": null,
+    "implementsSpecification": null,
+    "softwareContainer": null,
+    "input": null,
+    "output": null,
+    "partOfCommunity": null,
+    "latestRelease": null,
+    "latestReleaseVersion": null
+  },
+  "enriched_metadata": {
+    "codeRepository": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "programmingLanguage": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "downloadUrl": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "releaseNotes": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "softwareRequirements": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "softwareVersion": {
+      "confidence": 0.9,
+      "source": "CFF File",
+      "category": "Recommended"
+    },
+    "storageRequirements": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "author": {
+      "confidence": 0.95,
+      "source": "OpenAlex",
+      "category": "Minimum"
+    },
+    "citation": {
+      "confidence": 0.9,
+      "source": "CFF File",
+      "category": "Optional"
+    },
+    "contributor": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Optional"
+    },
+    "copyrightHolder": {
+      "confidence": 0.85,
+      "source": "License File",
+      "category": "Recommended"
+    },
+    "copyrightYear": {
+      "confidence": 0.85,
+      "source": "License File",
+      "category": "Optional"
+    },
+    "dateCreated": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "dateModified": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "datePublished": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "isAccessibleForFree": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Optional"
+    },
+    "keywords": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "license": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "description": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "identifier": {
+      "confidence": 0.9,
+      "source": "CFF File",
+      "category": "Recommended"
+    },
+    "name": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "url": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "hasSourceCode": {
+      "confidence": 0.75,
+      "source": "Pattern",
+      "category": "Optional"
+    },
+    "issueTracker": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Optional"
+    },
+    "readme": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "archivedAt": {
+      "confidence": 0.6,
+      "source": "README",
+      "category": "Optional"
+    },
+    "documentation": {
+      "confidence": 0.7,
+      "source": "README",
+      "category": "Recommended"
+    }
+  }
+}
