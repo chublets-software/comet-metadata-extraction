@@ -12,6 +12,7 @@ from app.config.settings import settings
 from app.layer_4.services.metadata_service import run_extraction, initialize
 from app.layer_4.services.fairness_service import run_fairness_assessment
 from app.layer_2.errors import UnknownPropertyError
+from app.exporters.command import add_parser as add_export_parser
 
 logger = logging.getLogger(__name__)
 
@@ -262,6 +263,9 @@ def main() -> None:
         help="GitHub/GitLab token (or set GITHUB_TOKEN / GITLAB_TOKEN). Raises rate limits when unset.",
     )
     fairness_parser.set_defaults(func=_fairness_command)
+
+    # comet-rs export {EXTRACTION_JSON} --format {FORMAT}
+    add_export_parser(subparsers)
 
     args = parser.parse_args()
 

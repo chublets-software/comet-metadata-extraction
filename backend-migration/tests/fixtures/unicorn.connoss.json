@@ -1,0 +1,637 @@
+{
+  "schema": "connoss",
+  "code_url": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS",
+  "results": {
+    "@context": {
+      "linkml": "https://w3id.org/linkml/",
+      "sdo": "https://schema.org/",
+      "cm": "https://codemeta.github.io/terms/",
+      "spdx": "https://spdx.org/licenses/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "codeRepository": "sdo:codeRepository",
+      "codeSampleType": "sdo:codeSampleType",
+      "programmingLanguage": "sdo:programmingLanguage",
+      "runtimePlatform": "sdo:runtimePlatform",
+      "targetProduct": "sdo:targetProduct",
+      "applicationCategory": "sdo:applicationCategory",
+      "applicationSubCategory": "sdo:applicationSubCategory",
+      "applicationSuite": "sdo:applicationSuite",
+      "availableOnDevice": "sdo:availableOnDevice",
+      "countriesNotSupported": "sdo:countriesNotSupported",
+      "countriesSupported": "sdo:countriesSupported",
+      "downloadUrl": "sdo:downloadUrl",
+      "featureList": "sdo:featureList",
+      "fileSize": "sdo:fileSize",
+      "installUrl": "sdo:installUrl",
+      "memoryRequirements": "sdo:memoryRequirements",
+      "operatingSystem": "sdo:operatingSystem",
+      "permissions": "sdo:permissions",
+      "processorRequirements": "sdo:processorRequirements",
+      "releaseNotes": "sdo:releaseNotes",
+      "screenshot": "sdo:screenshot",
+      "softwareAddOn": "sdo:softwareAddOn",
+      "softwareHelp": "sdo:softwareHelp",
+      "softwareRequirements": "sdo:softwareRequirements",
+      "softwareVersion": "sdo:softwareVersion",
+      "storageRequirements": "sdo:storageRequirements",
+      "supportingData": "sdo:supportingData",
+      "author": "sdo:author",
+      "citation": "sdo:citation",
+      "contributor": "sdo:contributor",
+      "copyrightHolder": "sdo:copyrightHolder",
+      "copyrightYear": "sdo:copyrightYear",
+      "dateCreated": "sdo:dateCreated",
+      "dateModified": "sdo:dateModified",
+      "datePublished": "sdo:datePublished",
+      "encodingFormat": "sdo:encodingFormat",
+      "funder": "sdo:funder",
+      "hasPart": "sdo:hasPart",
+      "isAccessibleForFree": "sdo:isAccessibleForFree",
+      "isPartOf": "sdo:isPartOf",
+      "keywords": "sdo:keywords",
+      "license": "sdo:license",
+      "publisher": "sdo:publisher",
+      "review": "sdo:review",
+      "sponsor": "sdo:sponsor",
+      "description": "sdo:description",
+      "identifier": "sdo:identifier",
+      "name": "sdo:name",
+      "sameAs": "sdo:sameAs",
+      "url": "sdo:url",
+      "relatedLink": "sdo:relatedLink",
+      "buildInstructions": "cm:buildInstructions",
+      "continuousIntegration": "cm:continuousIntegration",
+      "developmentStatus": "cm:developmentStatus",
+      "embargoEndDate": "cm:embargoEndDate",
+      "hasSourceCode": "cm:hasSourceCode",
+      "isSourceCodeOf": "cm:isSourceCodeOf",
+      "issueTracker": "cm:issueTracker",
+      "readme": "cm:readme",
+      "referencePublication": "cm:referencePublication",
+      "relatedSoftware": "sdo:relatedSoftware",
+      "contactPoint": "sdo:contactPoint",
+      "creditText": "sdo:creditText",
+      "alternateName": "sdo:alternateName",
+      "intendedUse": "sdo:intendedUse",
+      "applicationDomain": "sdo:applicationDomain",
+      "legalConsiderations": "sdo:legalConsiderations",
+      "ethicalSocialConsiderations": "sdo:ethicalSocialConsiderations",
+      "archivedAt": "sdo:archivedAt",
+      "conditionsOfAccess": "sdo:conditionsOfAccess",
+      "documentation": "sdo:documentation",
+      "developerDocumentation": "cm:developerDocumentation",
+      "userDocumentation": "cm:userDocumentation",
+      "softwareInterface": "sdo:softwareInterface",
+      "testedWith": "sdo:testedWith",
+      "implementsSpecification": "sdo:implementsSpecification",
+      "softwareContainer": "sdo:softwareContainer",
+      "input": "sdo:input",
+      "output": "sdo:output",
+      "partOfCommunity": "sdo:partOfCommunity",
+      "latestRelease": "sdo:latestRelease",
+      "latestReleaseVersion": "cm:latestReleaseVersion"
+    },
+    "@type": "Software",
+    "codeRepository": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS.git",
+    "codeSampleType": null,
+    "programmingLanguage": [
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Makefile",
+      "Batchfile",
+      "Shell",
+      "QMake",
+      "QML"
+    ],
+    "runtimePlatform": null,
+    "targetProduct": null,
+    "applicationCategory": null,
+    "applicationSubCategory": null,
+    "applicationSuite": null,
+    "availableOnDevice": null,
+    "countriesNotSupported": null,
+    "countriesSupported": null,
+    "downloadUrl": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS/archive/refs/heads/master.zip",
+    "featureList": null,
+    "fileSize": null,
+    "installUrl": null,
+    "memoryRequirements": null,
+    "operatingSystem": null,
+    "permissions": null,
+    "processorRequirements": null,
+    "releaseNotes": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS/releases/tag/v0.17.4",
+    "screenshot": null,
+    "softwareAddOn": null,
+    "softwareHelp": null,
+    "softwareRequirements": null,
+    "softwareVersion": "0.17.2",
+    "storageRequirements": "98.00 MB",
+    "supportingData": null,
+    "author": [
+      {
+        "givenName": "Timo",
+        "familyName": "",
+        "@id": "https://openalex.org/A5157892405",
+        "affiliation": {
+          "name": "University of Applied Sciences Mainz",
+          "sameAs": "https://openalex.org/I164387090",
+          "@type": "Organization"
+        },
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      },
+      {
+        "givenName": "Florian Thiery",
+        "familyName": "MSc",
+        "@id": "https://openalex.org/A5157901228",
+        "affiliation": {
+          "name": "LEIZA - Leibniz-Zentrum für Archäologie",
+          "sameAs": "https://openalex.org/I3178478377",
+          "@type": "Organization"
+        },
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      },
+      {
+        "givenName": "Peter",
+        "familyName": "Hopfgartner",
+        "@id": "https://openalex.org/A5157916588",
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      },
+      {
+        "givenName": "Sophie C.",
+        "familyName": "Schmidt",
+        "@id": "https://orcid.org/0000-0003-4696-2101",
+        "sameAs": "https://openalex.org/A5025157216",
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      },
+      {
+        "givenName": "The Gitter",
+        "familyName": "Badger",
+        "@id": "https://openalex.org/A5146663544",
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      }
+    ],
+    "citation": null,
+    "contributor": [
+      {
+        "givenName": "Timo",
+        "familyName": "Homburg",
+        "url": "https://situx.github.io",
+        "@id": "https://api.github.com/users/situx",
+        "affiliation": {
+          "name": "Mainz University Of Applied Sciences",
+          "@type": "Organization"
+        },
+        "account": {
+          "accountName": "situx",
+          "accountServiceHomepage": "https://github.com",
+          "url": "https://github.com/situx",
+          "@type": "OnlineAccount"
+        },
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      },
+      {
+        "givenName": "Florian",
+        "familyName": "Thiery",
+        "url": "http://fthiery.de",
+        "@id": "https://api.github.com/users/florianthiery",
+        "affiliation": {
+          "name": "leiza-rse",
+          "@type": "Organization"
+        },
+        "account": {
+          "accountName": "florianthiery",
+          "accountServiceHomepage": "https://github.com",
+          "url": "https://github.com/florianthiery",
+          "@type": "OnlineAccount"
+        },
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      },
+      {
+        "givenName": "Peter",
+        "familyName": "Hopfgartner",
+        "url": "https://ontopic.ai",
+        "@id": "https://api.github.com/users/phopfgartner",
+        "affiliation": {
+          "name": "ontopic-vkg",
+          "@type": "Organization"
+        },
+        "account": {
+          "accountName": "phopfgartner",
+          "accountServiceHomepage": "https://github.com",
+          "url": "https://github.com/phopfgartner",
+          "@type": "OnlineAccount"
+        },
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      },
+      {
+        "givenName": "Nicholas",
+        "familyName": "Car",
+        "url": "https://kurrawong.ai",
+        "@id": "https://api.github.com/users/nicholascar",
+        "affiliation": {
+          "name": "KurrawongAI",
+          "@type": "Organization"
+        },
+        "account": {
+          "accountName": "nicholascar",
+          "accountServiceHomepage": "https://github.com",
+          "url": "https://github.com/nicholascar",
+          "@type": "OnlineAccount"
+        },
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      },
+      {
+        "givenName": "Sophie C.",
+        "familyName": "Schmidt",
+        "url": "archaeoinformatics.net",
+        "@id": "https://api.github.com/users/SCSchmidt",
+        "account": {
+          "accountName": "SCSchmidt",
+          "accountServiceHomepage": "https://github.com",
+          "url": "https://github.com/SCSchmidt",
+          "@type": "OnlineAccount"
+        },
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      },
+      {
+        "givenName": "The Gitter",
+        "familyName": "Badger",
+        "url": "https://gitter.im",
+        "@id": "https://api.github.com/users/gitter-badger",
+        "affiliation": {
+          "name": "Gitter",
+          "@type": "Organization"
+        },
+        "account": {
+          "accountName": "gitter-badger",
+          "accountServiceHomepage": "https://github.com",
+          "url": "https://github.com/gitter-badger",
+          "@type": "OnlineAccount"
+        },
+        "@type": "Person",
+        "@context": {
+          "@vocab": "https://schema.org/",
+          "foaf": "http://xmlns.com/foaf/0.1/",
+          "account": "foaf:account",
+          "OnlineAccount": "foaf:OnlineAccount",
+          "accountName": "foaf:accountName",
+          "accountServiceHomepage": {
+            "@id": "foaf:accountServiceHomepage",
+            "@type": "@id"
+          }
+        }
+      }
+    ],
+    "copyrightHolder": "Free Software Foundation, Inc.,",
+    "copyrightYear": null,
+    "dateCreated": "2019-10-28",
+    "dateModified": "2026-07-08",
+    "datePublished": "2019-10-28",
+    "encodingFormat": null,
+    "funder": null,
+    "hasPart": null,
+    "isAccessibleForFree": true,
+    "isPartOf": null,
+    "keywords": [
+      "linked-data",
+      "qgis",
+      "qgis-plugin",
+      "research-squirrels",
+      "semantic-web",
+      "sparql-unicorn",
+      "wikidata"
+    ],
+    "license": {
+      "@type": "CreativeWork",
+      "@context": "https://schema.org",
+      "name": "GNU General Public License v2.0",
+      "url": "https://spdx.org/licenses/GPL-2.0.html"
+    },
+    "publisher": null,
+    "review": null,
+    "sponsor": null,
+    "description": "SPARQLing Unicorn QGIS Plugin (Documentation: https://sparqlunicorn.github.io/sparqlunicornGoesGIS/)",
+    "identifier": [
+      "https://doi.org/10.5281/zenodo.14874994",
+      "https://doi.org/10.5281/zenodo.10779466",
+      "https://doi.org/10.5281/zenodo.13828632",
+      "https://doi.org/10.5281/zenodo.4927687",
+      "https://doi.org/10.5281/zenodo.5977770",
+      "https://doi.org/10.5281/zenodo.5748245",
+      "https://doi.org/10.5281/zenodo.5730528",
+      "https://doi.org/10.5281/zenodo.7304482",
+      "https://doi.org/10.5281/zenodo.4455962",
+      "https://doi.org/10.5281/zenodo.4443324",
+      "https://doi.org/10.5281/zenodo.8192848",
+      "https://doi.org/10.5281/zenodo.3786814",
+      "https://doi.org/10.5281/zenodo.3931255",
+      "https://doi.org/10.5281/zenodo.3786819",
+      "https://doi.org/10.5281/zenodo.6039443"
+    ],
+    "name": "sparqlunicornGoesGIS",
+    "sameAs": null,
+    "url": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS",
+    "relatedLink": null,
+    "buildInstructions": null,
+    "continuousIntegration": null,
+    "developmentStatus": null,
+    "embargoEndDate": null,
+    "hasSourceCode": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS",
+    "isSourceCodeOf": null,
+    "issueTracker": "https://github.com/sparqlunicorn/sparqlunicornGoesGIS/issues",
+    "readme": [
+      "https://github.com/sparqlunicorn/sparqlunicornGoesGIS/blob/master/README.html",
+      "https://github.com/sparqlunicorn/sparqlunicornGoesGIS/blob/master/README.md",
+      "https://github.com/sparqlunicorn/sparqlunicornGoesGIS/blob/master/README.txt"
+    ],
+    "referencePublication": {
+      "@type": "Article",
+      "title": "SPARQLing Unicorn QGIS Plugin",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": "Florian",
+          "familyName": "Thiery",
+          "@id": "https://orcid.org/0000-0002-3246-3531"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Timo",
+          "familyName": "Homburg",
+          "@id": "https://orcid.org/0000-0002-9499-5840"
+        }
+      ]
+    },
+    "relatedSoftware": null,
+    "contactPoint": null,
+    "creditText": null,
+    "alternateName": "SPARQLing Unicorn QGIS Plugin",
+    "intendedUse": null,
+    "applicationDomain": null,
+    "legalConsiderations": null,
+    "ethicalSocialConsiderations": null,
+    "archivedAt": [
+      "https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/sparqlunicorn/sparqlunicornGoesGIS"
+    ],
+    "conditionsOfAccess": null,
+    "documentation": [
+      "https://github.com/sparqlunicorn/sparqlunicornGoesGIS/tree/master/util/doc",
+      "https://github.com/sparqlunicorn/sparqlunicornGoesGIS/tree/master/docs"
+    ],
+    "developerDocumentation": null,
+    "userDocumentation": null,
+    "softwareInterface": null,
+    "testedWith": null,
+    "implementsSpecification": null,
+    "softwareContainer": null,
+    "input": null,
+    "output": null,
+    "partOfCommunity": null,
+    "latestRelease": null,
+    "latestReleaseVersion": null
+  },
+  "enriched_metadata": {
+    "codeRepository": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "programmingLanguage": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "downloadUrl": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "releaseNotes": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "softwareVersion": {
+      "confidence": 0.9,
+      "source": "CFF File",
+      "category": "Recommended"
+    },
+    "storageRequirements": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "author": {
+      "confidence": 0.95,
+      "source": "OpenAlex",
+      "category": "Minimum"
+    },
+    "contributor": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Optional"
+    },
+    "copyrightHolder": {
+      "confidence": 0.85,
+      "source": "License File",
+      "category": "Recommended"
+    },
+    "dateCreated": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "dateModified": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "datePublished": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "isAccessibleForFree": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Optional"
+    },
+    "keywords": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "license": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "description": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "identifier": {
+      "confidence": 0.9,
+      "source": "CFF File",
+      "category": "Recommended"
+    },
+    "name": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Minimum"
+    },
+    "url": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "hasSourceCode": {
+      "confidence": 0.75,
+      "source": "Pattern",
+      "category": "Optional"
+    },
+    "issueTracker": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Optional"
+    },
+    "readme": {
+      "confidence": 0.95,
+      "source": "Platform API",
+      "category": "Recommended"
+    },
+    "referencePublication": {
+      "confidence": 0.9,
+      "source": "CFF File",
+      "category": "Recommended"
+    },
+    "alternateName": {
+      "confidence": 0.9,
+      "source": "CFF File",
+      "category": "Optional"
+    },
+    "archivedAt": {
+      "confidence": 0.95,
+      "source": "SoftwareHeritage API",
+      "category": "Optional"
+    },
+    "documentation": {
+      "confidence": 0.85,
+      "source": "Pattern",
+      "category": "Recommended"
+    }
+  }
+}
